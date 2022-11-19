@@ -13,7 +13,7 @@ class Map:
 
     def simulate_euro_diffusion(self) -> None:
         if len(self.countries) == 1:
-            self.countries[0].day_of_full = 1
+            self.countries[0].day_of_full = 0
             return
 
         full = False
